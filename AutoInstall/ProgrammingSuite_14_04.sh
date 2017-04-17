@@ -14,5 +14,8 @@ apt-get install -y spe
 
 #Add Java 8 (14.04 and maybe earlier)
 apt-get install -y openjdk-8-jdk
+
+echo "Please choose JDK 8 to enable the most recent Java compiler"
+
 update-alternatives --config java
 update-alternatives --config javac

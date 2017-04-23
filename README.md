@@ -17,7 +17,5 @@ If you only want to install specific configurations, navigate the terminal into 
 sudo bash ./NAME_OF_SCRIPT_HERE.sh
 
 For example:
+
 sudo bash ./GamingSuite.sh
-
-
-

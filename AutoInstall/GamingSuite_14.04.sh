@@ -1,8 +1,8 @@
 #minecraft repository
-add-apt-repository ppa:minecraft-installer-peeps/minecraft-installer
+add-apt-repository -y ppa:minecraft-installer-peeps/minecraft-installer
 #red eclipse game repository
-add-apt-repository ppa:itachi-sama-amaterasu/redeclipse-client
-add-apt-repository ppa:openjdk-r/ppa
+add-apt-repository -y ppa:itachi-sama-amaterasu/redeclipse-client
+add-apt-repository -y ppa:openjdk-r/ppa
 apt-get update
 
 apt-get install -y openjdk-8-jdk

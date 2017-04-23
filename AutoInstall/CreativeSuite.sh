@@ -1,11 +1,11 @@
 #Installs programs that get the creative juices flowing!
 
 #This repository is for simplescreenrecorder
-add-apt-repository ppa:maarten-baert/simplescreenrecorder
+add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
 apt-get update
 
 #Screen recording capabilities
-apt-get install simplescreenrecorder
+apt-get install -y simplescreenrecorder
 
 #Video editing tool: Windows Movie Maker gone right!
 apt-get install -y kdenlive
@@ -14,7 +14,7 @@ apt-get install -y kdenlive
 apt-get install -y gimp
 
 #Good for bulk converting images and the like, resizing etc
-apt-get install imagemagick
+apt-get install -y imagemagick
 
 #Audio editing and recording
 apt-get install -y audacity

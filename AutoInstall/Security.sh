@@ -8,8 +8,8 @@ sudo apt-get update
 apt-get install -y gufw
 ufw enable
 
-sudo apt-get install -y dnscrypt-proxy
-sudo apt-get install -y rkhunter
+apt-get install -y dnscrypt-proxy
+apt-get install -y rkhunter
 
 #There have been exploits previously found for pidgin and transmission. If these aren't needed, don't use them.
 apt-get remove -y pidgin

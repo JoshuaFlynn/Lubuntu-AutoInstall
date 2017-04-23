@@ -3,15 +3,20 @@
 ufw enable
 
 #repository requirement for dnscrypt if we're using 14.04
-sudo add-apt-repository ppa:anton+/dnscrypt
-sudo apt-get update
+add-apt-repository ppa:anton+/dnscrypt
+apt-get update
 
 #After we install gufw, we try to enable the firewall again, just in-case it failed the first time
 apt-get install -y gufw
 ufw enable
 
-sudo apt-get install -y dnscrypt-proxy
-sudo apt-get install -y rkhunter
+apt-get install -y rkhunter
+
+apt-get install -y dnscrypt-proxy
+
+#The following are used to work with the DNScrypt loader
+apt-get install -y gawk
+apt-get install -y whiptail
 
 #There have been exploits previously found for pidgin and transmission. If these aren't needed, don't use them.
 apt-get remove -y pidgin

@@ -3,6 +3,9 @@ apt-get update
 #Great IDE for C and C++ programming
 apt-get install -y codeblocks
 
+#SFML - Simple Fast Multimedia Library which is entirely free (used for C++)
+apt-get install -y sfml
+
 #IDE for Java
 apt-get install -y eclipse
 
@@ -10,7 +13,7 @@ apt-get install -y eclipse
 apt-get install -y openjdk-8-jdk
 
 #Python IDE
-apt-get install geany
+apt-get install -y geany
 #Stani's Python Editor, a reasonable alternative to geany
 apt-get install -y spe
 

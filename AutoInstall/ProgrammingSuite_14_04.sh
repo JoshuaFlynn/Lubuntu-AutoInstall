@@ -1,14 +1,17 @@
-add-apt-repository ppa:openjdk-r/ppa
+add-apt-repository -y ppa:openjdk-r/ppa
 apt-get update
 
 #Great IDE for C and C++ programming
 apt-get install -y codeblocks
 
+#Simple Fast Multimedia Library - which is entirely free. Used for C++
+apt-get install -y sfml
+
 #IDE for Java
 apt-get install -y eclipse
 
 #Python IDE
-apt-get install geany
+apt-get install -y geany
 #Stani's Python Editor, a reasonable alternative to geany
 apt-get install -y spe
 

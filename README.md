@@ -13,7 +13,7 @@ If using 14.04, type:
 sudo bash ./MasterInstall_14_04.sh
 
 If you only want to install specific configurations, navigate the terminal into the AutoInstall folder, and type in:
-sudo bash ./<NameOfScript>.sh
+sudo bash ./NAME_OF_SCRIPT_HERE.sh
 
 For example:
 sudo bash ./GamingSuite.sh

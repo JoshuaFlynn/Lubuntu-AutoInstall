@@ -19,3 +19,5 @@ sudo bash ./NAME_OF_SCRIPT_HERE.sh
 For example:
 
 sudo bash ./GamingSuite.sh
+
+The scripts require sudo as they require it in order to download and install various recommended packages and make modifications to the system's configuration files. Sudo should only be required once.

@@ -1,3 +1,4 @@
+#!/bin/bash
 #Security module!
 #We try to enable the firewall on our first pass
 ufw enable
@@ -13,10 +14,7 @@ ufw enable
 apt-get install -y rkhunter
 
 apt-get install -y dnscrypt-proxy
-
-#The following are used to work with the DNScrypt loader
-apt-get install -y gawk
-apt-get install -y whiptail
+bash ./DNSCryptConfig.sh
 
 #There have been exploits previously found for pidgin and transmission. If these aren't needed, don't use them.
 apt-get remove -y pidgin

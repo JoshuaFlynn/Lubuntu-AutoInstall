@@ -1,3 +1,4 @@
+#!/bin/bash
 add-apt-repository -y ppa:openjdk-r/ppa
 apt-get update
 
@@ -6,6 +7,9 @@ apt-get install -y codeblocks
 
 #Simple Fast Multimedia Library - which is entirely free. Used for C++
 apt-get install -y sfml
+
+#Install the supporting libraries used by SFML
+bash ./SFMLConfig.sh
 
 #IDE for Java
 apt-get install -y eclipse

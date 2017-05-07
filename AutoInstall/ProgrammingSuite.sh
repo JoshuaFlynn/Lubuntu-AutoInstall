@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get update
 
 #Great IDE for C and C++ programming
@@ -5,6 +6,9 @@ apt-get install -y codeblocks
 
 #SFML - Simple Fast Multimedia Library which is entirely free (used for C++)
 apt-get install -y sfml
+
+#Install the supporting libraries used by SFML
+bash ./SFMLConfig.sh
 
 #IDE for Java
 apt-get install -y eclipse

@@ -8,6 +8,9 @@ apt-get install -y gparted
 #Used to manage external/multiple monitors
 apt-get install -y arandr
 
+#Very useful for 7zip files
+apt-get install -y p7zip-full
+
 #In-case sed isn't already installed, so we can use it
 apt-get install -y sed
 

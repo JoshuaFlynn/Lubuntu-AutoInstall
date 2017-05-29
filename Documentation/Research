@@ -1,2 +1,8 @@
 Gives release number:
 lsb_release -r
+
+More universal command:
+cat /etc/lsb-release
+
+DISTRIB_RELEASE=
+DISTRIB_CODENAME=

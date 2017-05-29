@@ -6,3 +6,10 @@ cat /etc/lsb-release
 
 DISTRIB_RELEASE=
 DISTRIB_CODENAME=
+
+if [ RELEASEVERS = "14.04" ]
+then
+
+fi
+
+string_contains() { [ -z "${2##*$1*}" ] && [ -n "$2" -o -z "$1" ]; }

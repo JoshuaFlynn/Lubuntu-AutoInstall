@@ -11,7 +11,7 @@ cp ./RandomDNSCrypt.sh /etc/RandomDNSCrypt.sh
 
 #We now have to update rc.local to call this
 #We back this up in-case the next operation goes horribly wrong
-cp rc.local rc.local.bak
+cp /etc/rc.local /etc/rc.local.bak
 
 echo 'Ignore any errors in the next part. Despite complaining, this usually succeeds.'
 

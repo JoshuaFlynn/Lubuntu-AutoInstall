@@ -7,7 +7,7 @@ adduser --system --quiet --home /run/dnscrypt --shell /bin/false --group --disab
 
 #We copy over our random DNS crypt script into the same directory as rc.local
 #This contains a predetermined list of DNS crypt provider names which is randomly selected from
-cp ./RandomDNSCrypt.sh /etc/RandomDNSCrypt.sh
+cp .AutoInstall/RandomDNSCrypt.sh /etc/RandomDNSCrypt.sh
 
 #We now have to update rc.local to call this
 #We back this up in-case the next operation goes horribly wrong

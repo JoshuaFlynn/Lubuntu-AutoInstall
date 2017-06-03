@@ -3,6 +3,13 @@
 #We try to enable the firewall on our first pass
 ufw enable
 
+#Protection against the Samba exploit. Hopefully.
+ufw deny in 445
+ufw deny out 445
+
+#Reload the firewall so the new rules take effect
+ufw reload
+
 sudo apt-get update
 
 #After we install gufw, we try to enable the firewall again, just in-case it failed the first time

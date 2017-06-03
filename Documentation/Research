@@ -16,3 +16,6 @@ string_contains() { [ -z "${2##*$1*}" ] && [ -n "$2" -o -z "$1" ]; }
 
 Arguments:
 $1
+
+Broadcom ID command:
+lspci -nn -d 14e4:

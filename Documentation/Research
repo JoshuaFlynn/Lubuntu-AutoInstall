@@ -21,4 +21,5 @@ Broadcom ID command:
 lspci -nn -d 14e4:
 
 Discord download link
+sudo apt-get install wget
 wget -nc ./AutoInstall https://discordapp.com/api/download?platform=linux&format=deb

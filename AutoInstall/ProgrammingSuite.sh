@@ -21,3 +21,5 @@ apt-get install -y geany
 #Stani's Python Editor, a reasonable alternative to geany
 apt-get install -y spe
 
+#Python netaddr library (used by the doublepulser-detection-script so it doubles as a security feature)
+apt-get install -y python-netaddr

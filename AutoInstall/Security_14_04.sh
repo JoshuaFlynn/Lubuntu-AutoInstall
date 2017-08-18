@@ -10,6 +10,16 @@ ufw deny out 445
 #Reload the firewall so the new rules take effect
 ufw reload
 
+#Although included in the WorkSuite, we have to call it here too as it's needed to download the doublepulsar-detection-tool
+sudo apt-get install -y git
+
+#Look at me! I'm a doublepulsar detection script (that Microsoft won't fix!)
+git clone https://github.com/countercept/doublepulsar-detection-script.git
+
+#To run the above script, when in it's installed directory, execute the following (make sure the IP is your local network):
+#python detect_doublepulsar_smb.py --net 192.168.1.1/24
+#python detect_doublepulsar_rdp.py --net 192.168.1.1/24
+
 #repository requirement for dnscrypt if we're using 14.04
 add-apt-repository ppa:anton+/dnscrypt
 apt-get update

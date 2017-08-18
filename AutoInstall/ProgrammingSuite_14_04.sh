@@ -19,6 +19,9 @@ apt-get install -y geany
 #Stani's Python Editor, a reasonable alternative to geany
 apt-get install -y spe
 
+#Python netaddr library (used by the doublepulser-detection-script so it doubles as a security feature)
+apt-get install -y python-netaddr
+
 #Add Java 8 (14.04 and maybe earlier)
 apt-get install -y openjdk-8-jdk
 
